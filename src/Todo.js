@@ -27,7 +27,7 @@ export default function Todo({ todo, dispatch }) {
   };
 
   return (
-    <div class="todo">
+    <div className="todo">
       <span style={todo.completed === true ? style1 : style2}>{todo.name}</span>
       <button className="toggleTodo" onClick={toggle}>
         Toggle
